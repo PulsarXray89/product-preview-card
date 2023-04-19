@@ -54,9 +54,3 @@ h6 {
 .card-body{
     height: 100%;
 }
-
-@media (max-width: 767px) {
-    img {
-        content: url(/images/image-product-mobile.jpg)
-    }
-}

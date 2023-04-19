@@ -43,7 +43,11 @@
         <div class="card overflow-hidden rounded-4" style="max-width: 720px;">
             <div class="row g-0">
                 <div class="col-md-6">
-                    <img src="images/image-product-desktop.jpg" class="img-fluid h-100" alt="...">
+                    <picture>
+                        <source srcset="images/image-product-desktop.jpg" media="(min-width: 767px)">
+                        <source srcset="images/image-product-mobile.jpg" media="(max-width: 767px)">
+                        <img src="images/image-product-desktop.jpg" class="img-fluid h-100" alt="...">
+                    </picture>
                 </div>
                 <div class="col-md-6 p-4">
                     <div class="card-body">
@@ -56,7 +60,8 @@
                         <h2 class="dark-cyan fraunces pricing">$149.99</h2>
                         <h6 class="pricing">$169.99</h6>
                         <div class="text-center">
-                            <button class="mt-4 btn"><i class="fa-solid fa-cart-shopping" style="color: #ffffff; margin-right: 10px;"></i>Add to Cart</button>
+                            <button class="mt-4 btn"><i class="fa-solid fa-cart-shopping"
+                                    style="color: #ffffff; margin-right: 10px;"></i>Add to Cart</button>
                         </div>
                     </div>
                 </div>
